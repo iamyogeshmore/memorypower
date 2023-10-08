@@ -1,0 +1,27 @@
+.app-bar {
+  height: 108px;
+  padding: 10px;
+}
+
+.logo-image {
+  width: 150px;
+}
+
+.MuiAppBar-root {
+  background-color: #fff !important;
+}
+
+.MuiButton-root.nav-button {
+  color: #20a5dac6;
+  font-family: "YourCustomFont", sans-serif;
+  text-transform: none;
+}
+
+.MuiIconButton-root.social-icon {
+  color: rgb(249, 148, 211);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: orange;
+}

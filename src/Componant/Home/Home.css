@@ -1,0 +1,28 @@
+.my-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.my-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.my-table tbody tr td:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.my-table tbody td {
+  white-space: pre-line;
+}
+
+.my-table tbody td span {
+  display: block;
+}
+.my-table tbody tr td:active {
+  background-color: blue;
+}

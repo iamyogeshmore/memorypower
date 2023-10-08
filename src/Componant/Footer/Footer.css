@@ -1,0 +1,63 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  background-image: url("../Assets//background\ image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.menu span:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.menu span:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.submenu-icon {
+  cursor: pointer;
+  color: black;
+}
+
+.submenu-icon:hover {
+  color: red;
+}
+
+.more-links {
+  display: flex;
+}
+
+.link-submenu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.link-submenu .submenu-item {
+  display: flex;
+  align-items: center;
+}
+
+.link-submenu .submenu-item a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.link-submenu .submenu-item a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.footerIcon {
+  font-size: 900 px;
+}
